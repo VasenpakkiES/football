@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple website</title>
+        <link rel="stylesheet" href="main.css">
+        <style> table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+    </head>
+    <body class="light-theme">
+  <h1>Task List</h1>
+  <p id="msg">Current tasks:</p>
+  <ul>
+    <li class="list">Add visual styles</li>
+    <li class="list">Add light and dark themes</li>
+    <li>Enable switching the theme</li>
+  </ul>
+  <br>
+  <p>Kukkakuva. Se on Omnian webbisivuilta poimittu
+    <img src="Kukat.jpg" alt="Kukkia on monenlaisia-tässä sinulle Dasa montaa eri lajia! Ole hyvä!" width="500" height="600">
+      </p>
+<br>    <h1>Profiili Eero Siljander, 31.8.2024</h1>
+    <h2>Perustiedot</h2>
+    <p><b>Nimi: </b>Eero Siljander <br>
+        <b>Sukupuoli: </b>Mies <br>
+        <b>Syntymävuosi: </b>1977 <br>
+        <b>Asuinpaikka: </b>Helsinki</p>
+        <br>
+      <h2>Harrastukset</h2>
+    <ul>
+        <li> Uiminen </li>
+        <li> Kävely </li>
+        <li> Kesämökkeily </li>
+        <li>Ulkoilu Dasan kanssa </li>
+        </ul>
+        <br>
+        <h2>Osallistumiset HR-tapahtumiin ja työnhakuihin </h2>
+        <table>
+            <tr>
+            <td>Osallistunut rekrytointitapahtumiin 2015-2024 </td>
+            <td>10</td>
+            </tr>
+            <tr>
+            <td>Osallistunut työnhakuihin vuosina 2015-2024</td>
+            <td>500</td>
+            </tr>
+            <tr>
+            <td>Osallistunut koulutustunteihin vuosina 2015-2024</td>
+            <td>1000 </td>
+            </tr>
+            </table>
+
+    <h2>Contact form for You:</h2>
+    <form action="localhost/action_page.php">
+        <fieldset>
+        <legend>Henkilötiedot</legend>
+        Etunimi:<br>
+        <input type="text" name="firstname">
+        <br>
+        Sukunimi:<br>
+        <input type="text" name="lastname">
+        <br>
+        katuosoite:<br>
+        <input type="text" name="street adress">
+        <br>
+        Postinumero:<br>
+        <input type="text" name="postinumero">
+        <br>
+        Postitoimipaikka:<br>
+        <input type="text" name="postitoimipaikka">
+        <br>
+        <br>
+        <p>Your gender is (please select):</p>
+        <select name=”sukupuoli”>
+            <option>valitse</option>
+            <option>Mies</option>
+            <option>Nainen</option>
+            </select>
+        <br>
+        <br>
+        <p>Your gender is (please select):</p>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br>
+        <br>
+        <p>Your hobbies are (please select):</p>
+        <input type="radio" name="hobbies" value="Reading"> Reading 
+        <input type="radio" name="hobbies" value="Gardening"> Gardening 
+        <input type="radio" name="hobbies" value="Cooking"> Cooking 
+        <input type="radio" name="hobbies" value="Painting"> Painting
+        <br>
+        <br>
+        <input type="submit" value="Lähetä">
+        </fieldset>
+        </form>
+    <br>
+        
+    <h2>Oma kuvaus</h2>
+    <p>Olen (Eero Siljander) puuhaillut tietokoneiden parissa ihan pienestä pitäen.
+        Tällä hetkellä olen Omnian kurssilla Web DevOps koodarina.</p>
+        <p>Rakastan videopelejä. Suosikkigenreni ovat toimintapelit ja
+        roolipelit. Tietokoneella istumisen vastapainona harrastan
+        uimista, ja Dasan mukana lenkille tai uimaan lähes joka päivä.</p>
+        <p>Suosikkipelini on Shakki ja olen joskus tutustunut pintapuoleisesti myös <a href=”https://fi.wikipedia.org/wiki/World_of_Warcraft”>World of
+            Warcraft</a> </p>
+            <br>
+            <br>
+          <p>Shakkikuva: Chess.com website.
+            <img src="chess.jpg" alt="Chess.com website" width="500" height="600">
+              </p>
+    <br>
+    <div>
+      <button class="btn">Dark</button>
+    </div>
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
