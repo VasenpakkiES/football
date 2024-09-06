@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Request headers
             headers: {
                 'Cache-Control': 'no-cache',
-                'Ocp-Apim-Subscription-Key': 'Esiljand0607?!',}
+                'Ocp-Apim-Subscription-Key': 'password',}
         })
         /* Send a GET request to the URL
        fetch('https://api.boffsaopendata.fi/referencerates/api/ExchangeRate?eur', {
