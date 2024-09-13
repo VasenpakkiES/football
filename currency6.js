@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         console.log("dataObj:",dataObj);
         console.log("params:",params);
-        console.log("APIKEY:",APIKEY);
+        /* console.log("APIKEY:",APIKEY); */
         
         var myHeaders = new Headers();
         myHeaders.append("apikey", APIKEY);
@@ -29,7 +29,28 @@ document.addEventListener('DOMContentLoaded', function () {
         let result = document.querySelector('#result');
 		result.innerHTML = 'Tietoja haetaan..';
 
-        fetch(`https://api.boffsaopendata.fi/referencerates/api/ExchangeRate${params}`, requestOptions)
+        //fetch(`https://api.apilayer.com/exchangerates_data/latest?${params}`, requestOptions)
+        /* Ei tarvitse API Keytä: https://open.er-api.com/v6/latest/eur */
+        /* https://api.boffsaopendata.fi/referencerates/api/ExchangeRate?eur */
+        /*     
+        
+        fetch('https://api.boffsaopendata.fi/referencerates/api/ExchangeRate', {
+                method: 'GET',
+                // Request headers
+                headers: {
+                    'Cache-Control': 'no-cache',
+                    'Ocp-Apim-Subscription-Key': SPSALASANA }
+            })
+            .then(response => {
+                console.log(response.status);
+                console.log(response.text());
+            })
+            .catch(err => console.error(err));
+        */
+        
+        const url = 'https://api.apilayer.com/exchangerates_data/latest?' + params;
+          
+        fetch(url,requestOptions)
         .then(response => response.json())
         .then(data => {
             // Get currency from user input and convert to upper case
