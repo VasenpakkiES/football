@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('form').onsubmit = function() {
 
         // Send a GET request to the URL
-        fetch('https://open.er-api.com/v6/latest/eur')
+        fetch('https://api.boffsaopendata.fi/referencerates/api/ExchangeRate?eur')
         // Put response into json form
         .then(response => response.json())
         .then(data => {

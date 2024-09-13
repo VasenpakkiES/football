@@ -1,0 +1,33 @@
+ /* Valuuttakurssien haku Puolan keskuspankista.
+  https://api.nbp.pl/en.html
+
+  Yksittäisen valuutan kurssin voi esim. noutaa pyynnöllä:
+  https://api.nbp.pl/api/exchangerates/rates/a/<valuutta>/?format=json
+
+https://api.nbp.pl/api/exchangerates/rates/a/?format=json
+
+tämä:
+https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json
+https://api.nbp.pl/api/exchangerates/tables/a/last/1/
+
+
+
+  Jossa <valuutta> on sen kolmikirjaiminen tunniste. Palvelu palauttaa kurssit 
+  suhteessa Zlotyyn (PLN).
+  
+  Esim, haku Ruotsin Kruunulle (SEK) on esitetty alla
+
+  */
+
+  const request = new Request(`https://api.nbp.pl/api/exchangerates/rates/a/sek/?format=json`, {
+    method: "GET",
+  });
+
+  fetch(request)
+  .then(payload => payload.json())
+  .then(data => {
+    console.log(`Saatu JSON:\n ${JSON.stringify(data)}`);
+  })
+  .catch(error => {
+    console.log(`Virhe noudettaessa tietoa: ${error}`);  
+  })
