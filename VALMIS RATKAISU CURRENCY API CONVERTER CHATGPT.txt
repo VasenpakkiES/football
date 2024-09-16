@@ -1,0 +1,791 @@
+what is the json you get for https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json
+ChatGPT sanoi:
+ChatGPT
+Here is the JSON response structure you would typically get from the provided API:
+
+json
+Kopioi koodi
+[
+  {
+    "table": "A",
+    "no": "171/A/NBP/2023",
+    "effectiveDate": "2023-09-05",
+    "rates": [
+      {
+        "currency": "bat (Tajlandia)",
+        "code": "THB",
+        "mid": 0.1203
+      },
+      {
+        "currency": "dolar amerykański",
+        "code": "USD",
+        "mid": 4.1681
+      },
+      {
+        "currency": "dolar australijski",
+        "code": "AUD",
+        "mid": 2.6655
+      },
+      {
+        "currency": "dolar kanadyjski",
+        "code": "CAD",
+        "mid": 3.1147
+      },
+      {
+        "currency": "euro",
+        "code": "EUR",
+        "mid": 4.5378
+      },
+      {
+        "currency": "funt szterling",
+        "code": "GBP",
+        "mid": 5.2532
+      }
+      // Other currencies...
+    ]
+  }
+]
+Key Fields:
+table: The type of the table (in this case, "A" for average exchange rates).
+no: The table number and identification for the NBP.
+effectiveDate: The date on which the rates are effective.
+rates: A list of currency exchange rates with the following subfields:
+currency: The name of the currency.
+code: The currency code (e.g., "USD", "EUR").
+mid: The middle exchange rate.
+This response will give the latest exchange rates from the National Bank of Poland for a variety of currencies.
+
+
+
+
+
+
+Sinä sanoit:
+what is name of json https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json
+ChatGPT sanoi:
+ChatGPT
+The name of the JSON returned by the API at https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json doesn't have a specific name in the sense of a file name or a variable name. It is simply a JSON array containing one object, which represents the exchange rate data for the requested table.
+
+However, the API endpoint itself is referred to as "Exchange Rates Table A" (Table A provides the average exchange rates for major currencies). The returned JSON is typically referred to based on its structure or endpoint name, such as "NBP Exchange Rates Table A JSON."
+
+If you're asking about the specific root structure, it's an unnamed array containing one object with fields like table, no, effectiveDate, and rates.
+
+
+
+
+
+
+Sinä sanoit:
+make vscode currency converter out of open API data
+ChatGPT sanoi:
+ChatGPT
+To create a currency converter in Visual Studio Code (VSCode) that fetches live exchange rates from the NBP Open API, you can follow these steps. I'll walk you through creating a simple Node.js project that fetches exchange rates from the API and converts currency.
+
+1. Set up your Node.js environment
+First, install Node.js if you haven't already. You can download it from here.
+
+Open VSCode and create a new directory for your project, e.g., currency-converter.
+
+In VSCode, open a terminal and initialize your Node.js project:
+
+bash
+Kopioi koodi
+npm init -y
+Install required dependencies using the following command:
+
+bash
+Kopioi koodi
+npm install axios inquirer
+axios: To handle HTTP requests to fetch data from the API.
+inquirer: To interact with the user via the command line.
+2. Create the main converter script
+In your project directory, create a file called converter.js.
+
+javascript
+Kopioi koodi
+const axios = require('axios');
+const inquirer = require('inquirer');
+
+// NBP API endpoint to get the latest exchange rates for table A
+const NBP_API_URL = 'https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json';
+
+// Function to fetch exchange rates from the NBP API
+async function fetchExchangeRates() {
+    try {
+        const response = await axios.get(NBP_API_URL);
+        const rates = response.data[0].rates;
+        return rates;
+    } catch (error) {
+        console.error('Error fetching exchange rates:', error);
+        process.exit(1);
+    }
+}
+
+// Function to display currency options and perform the conversion
+async function currencyConverter() {
+    const rates = await fetchExchangeRates();
+    
+    const currencyOptions = rates.map(rate => ({
+        name: `${rate.currency} (${rate.code})`,
+        value: rate.code,
+    }));
+
+    const questions = [
+        {
+            type: 'list',
+            name: 'fromCurrency',
+            message: 'Choose the currency you want to convert from:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'list',
+            name: 'toCurrency',
+            message: 'Choose the currency you want to convert to:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'input',
+            name: 'amount',
+            message: 'Enter the amount to convert:',
+            validate: function (value) {
+                const valid = !isNaN(parseFloat(value)) && value > 0;
+                return valid || 'Please enter a positive number';
+            },
+            filter: Number,
+        },
+    ];
+
+    const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions);
+
+    const fromRate = rates.find(rate => rate.code === fromCurrency).mid;
+    const toRate = rates.find(rate => rate.code === toCurrency).mid;
+
+    const convertedAmount = (amount * fromRate) / toRate;
+    console.log(`\n${amount} ${fromCurrency} is approximately ${convertedAmount.toFixed(2)} ${toCurrency}.\n`);
+}
+
+// Start the currency converter
+currencyConverter();
+3. Running the currency converter
+Once you've written the script, you can run the currency converter using the terminal in VSCode. Navigate to your project folder and execute the following command:
+
+bash
+Kopioi koodi
+node converter.js
+The program will:
+
+Fetch live exchange rates from the NBP API.
+Prompt you to select the currency to convert from and to.
+Ask you to input the amount to convert.
+Display the converted amount using the selected exchange rates.
+4. Improvements and Next Steps
+You can add support for other tables (e.g., Table B or Table C) by adjusting the API endpoint.
+Add error handling for edge cases, like network issues or invalid API responses.
+You could also extend this by building a full front-end using HTML/CSS and JavaScript, or a GUI using Electron if you want to create a desktop app.
+Let me know if you'd like further explanations or enhancements for this project!
+
+
+
+
+
+
+Sinä sanoit:
+how should const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions);
+be modified to get result in previous statement
+ChatGPT sanoi:
+ChatGPT
+To modify the const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions); line to avoid destructuring, you can directly store the result in a variable and then access the properties individually.
+
+Here’s how you can do it:
+
+Original (using destructuring):
+javascript
+Kopioi koodi
+const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions);
+Modified (without destructuring):
+javascript
+Kopioi koodi
+const answers = await inquirer.prompt(questions);
+
+const fromCurrency = answers.fromCurrency;
+const toCurrency = answers.toCurrency;
+const amount = answers.amount;
+Explanation:
+The inquirer.prompt() method returns a promise that resolves to an object. Instead of destructuring that object, you assign it to the answers variable.
+You can then access each property (fromCurrency, toCurrency, and amount) individually from the answers object.
+This modification works the same way as the original, but instead of destructuring the properties from the result, you explicitly access each property step by step.
+
+
+
+
+
+
+Sinä sanoit:
+what to enter in amount in previous statement
+ChatGPT sanoi:
+ChatGPT
+For the amount prompt in the currency converter, you should enter a numeric value that represents the amount of money you want to convert from one currency to another.
+
+For example:
+
+If you want to convert 100 USD to EUR, you would enter 100 as the amount.
+Here is what the program expects when it asks for amount:
+
+Valid Input: The amount must be a positive number.
+Example: Enter 100, 50.5, or any other positive number.
+Invalid Input: If you enter something that is not a positive number (like text or a negative number), it will ask you to re-enter the value.
+Example Interaction:
+css
+Kopioi koodi
+? Enter the amount to convert: 100
+In this example, 100 is the amount of the source currency (e.g., USD) that you want to convert into the target currency (e.g., EUR).
+
+After entering the amount, the program will perform the conversion using the live exchange rates and display the result.
+
+
+
+
+
+
+Sinä sanoit:
+there is an error in the statement const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions); above 
+ChatGPT sanoi:
+ChatGPT
+It seems like you are encountering an error when trying to use await inside a non-async function. In JavaScript, await can only be used inside an async function. If your code is not inside an async function, this will throw an error.
+
+To fix this, make sure that the currencyConverter() function is declared as async, as shown below:
+
+Ensure currencyConverter is async:
+javascript
+Kopioi koodi
+const axios = require('axios');
+const inquirer = require('inquirer');
+
+// NBP API endpoint to get the latest exchange rates for table A
+const NBP_API_URL = 'https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json';
+
+// Function to fetch exchange rates from the NBP API
+async function fetchExchangeRates() {
+    try {
+        const response = await axios.get(NBP_API_URL);
+        const rates = response.data[0].rates;
+        return rates;
+    } catch (error) {
+        console.error('Error fetching exchange rates:', error);
+        process.exit(1);
+    }
+}
+
+// Mark the currencyConverter function as async
+async function currencyConverter() {
+    const rates = await fetchExchangeRates();
+    
+    const currencyOptions = rates.map(rate => ({
+        name: `${rate.currency} (${rate.code})`,
+        value: rate.code,
+    }));
+
+    const questions = [
+        {
+            type: 'list',
+            name: 'fromCurrency',
+            message: 'Choose the currency you want to convert from:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'list',
+            name: 'toCurrency',
+            message: 'Choose the currency you want to convert to:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'input',
+            name: 'amount',
+            message: 'Enter the amount to convert:',
+            validate: function (value) {
+                const valid = !isNaN(parseFloat(value)) && value > 0;
+                return valid || 'Please enter a positive number';
+            },
+            filter: Number,
+        },
+    ];
+
+    // Await here is valid because currencyConverter is async
+    const answers = await inquirer.prompt(questions);
+
+    const fromCurrency = answers.fromCurrency;
+    const toCurrency = answers.toCurrency;
+    const amount = answers.amount;
+
+    const fromRate = rates.find(rate => rate.code === fromCurrency).mid;
+    const toRate = rates.find(rate => rate.code === toCurrency).mid;
+
+    const convertedAmount = (amount * fromRate) / toRate;
+    console.log(`\n${amount} ${fromCurrency} is approximately ${convertedAmount.toFixed(2)} ${toCurrency}.\n`);
+}
+
+// Start the currency converter
+currencyConverter();
+Key Points:
+The currencyConverter() function is now marked as async so that you can use await inside it.
+You use await when calling inquirer.prompt(questions) because it's an asynchronous operation.
+You can now safely execute the code without the await error.
+If the issue persists, let me know exactly what the error message says, and I’ll guide you further!
+
+
+
+
+
+
+Sinä sanoit:
+I get the error message C:\Users\EeronPc\Desktop\VScode\converter.js:54
+    const answers = await inquirer.prompt(questions);
+                                   ^
+
+TypeError: inquirer.prompt is not a function
+    at currencyConverter (C:\Users\EeronPc\Desktop\VScode\converter.js:54:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ChatGPT sanoi:
+ChatGPT
+The error message you're encountering — TypeError: inquirer.prompt is not a function — typically happens when there is an issue with how the inquirer package is imported or installed.
+
+Here's how to troubleshoot and fix the problem:
+
+1. Check if inquirer is installed correctly
+Ensure that the inquirer package is installed in your project. In your terminal, run:
+
+bash
+Kopioi koodi
+npm install inquirer
+This will install the latest version of inquirer if it isn't already installed.
+
+2. Correct Import of inquirer
+In recent versions of inquirer, the module may need to be imported differently depending on whether you're using CommonJS or ES modules. Since Node.js typically uses CommonJS by default, check your package.json to see if "type": "module" is set. If not, you are using CommonJS, and the default import should work fine.
+
+In your case, you might need to import inquirer differently if you’re using an older version or if your setup requires CommonJS syntax.
+
+Here's how you should import it based on CommonJS:
+
+javascript
+Kopioi koodi
+const inquirer = require('inquirer');
+Make sure that this is at the top of your converter.js file.
+
+3. If Using Node.js 18 or Higher (ES Module Syntax)
+If you’re using a newer version of Node.js and ES modules (.mjs or "type": "module"), you would need to change the way inquirer is imported. Here’s how:
+
+Convert the import to:
+
+javascript
+Kopioi koodi
+import inquirer from 'inquirer';
+You would also need to modify your project’s package.json to set "type": "module", or rename your .js file to .mjs.
+
+4. Ensure node_modules is Accessible
+Sometimes, the node_modules folder or the inquirer package might not be correctly installed. If the issue persists, try removing the node_modules folder and reinstalling all dependencies:
+
+bash
+Kopioi koodi
+rm -rf node_modules
+npm install
+5. Version-Specific Troubleshooting
+If you're using a very specific version of inquirer, there might be subtle differences in the API. Make sure you're using a version of inquirer that supports prompt() by running:
+
+bash
+Kopioi koodi
+npm show inquirer version
+This will give you the installed version of inquirer. If it’s outdated, you can update it:
+
+bash
+Kopioi koodi
+npm install inquirer@latest
+Full Code Example for Clarity:
+Make sure your converter.js file has this structure:
+
+javascript
+Kopioi koodi
+const axios = require('axios');
+const inquirer = require('inquirer');  // Ensure this is the correct way to import
+
+// NBP API endpoint to get the latest exchange rates for table A
+const NBP_API_URL = 'https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json';
+
+// Function to fetch exchange rates from the NBP API
+async function fetchExchangeRates() {
+    try {
+        const response = await axios.get(NBP_API_URL);
+        const rates = response.data[0].rates;
+        return rates;
+    } catch (error) {
+        console.error('Error fetching exchange rates:', error);
+        process.exit(1);
+    }
+}
+
+// Mark the currencyConverter function as async
+async function currencyConverter() {
+    const rates = await fetchExchangeRates();
+    
+    const currencyOptions = rates.map(rate => ({
+        name: `${rate.currency} (${rate.code})`,
+        value: rate.code,
+    }));
+
+    const questions = [
+        {
+            type: 'list',
+            name: 'fromCurrency',
+            message: 'Choose the currency you want to convert from:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'list',
+            name: 'toCurrency',
+            message: 'Choose the currency you want to convert to:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'input',
+            name: 'amount',
+            message: 'Enter the amount to convert:',
+            validate: function (value) {
+                const valid = !isNaN(parseFloat(value)) && value > 0;
+                return valid || 'Please enter a positive number';
+            },
+            filter: Number,
+        },
+    ];
+
+    const answers = await inquirer.prompt(questions); // Ensure this line works with the correct import
+    const fromCurrency = answers.fromCurrency;
+    const toCurrency = answers.toCurrency;
+    const amount = answers.amount;
+
+    const fromRate = rates.find(rate => rate.code === fromCurrency).mid;
+    const toRate = rates.find(rate => rate.code === toCurrency).mid;
+
+    const convertedAmount = (amount * fromRate) / toRate;
+    console.log(`\n${amount} ${fromCurrency} is approximately ${convertedAmount.toFixed(2)} ${toCurrency}.\n`);
+}
+
+// Start the currency converter
+currencyConverter();
+Once you've made sure everything is correct, run the program again:
+
+bash
+Kopioi koodi
+node converter.js
+This should resolve the TypeError: inquirer.prompt is not a function issue. Let me know if it works or if you encounter any more issues!
+
+
+
+
+
+
+Sinä sanoit:
+still not working
+ChatGPT sanoi:
+ChatGPT
+If you're still getting the inquirer.prompt is not a function error, this indicates that the inquirer package might not be properly installed, or there's an issue with the way it's being imported. Let's take a more thorough approach to resolve this:
+
+Step-by-Step Troubleshooting
+1. Uninstall and Reinstall inquirer
+First, let's make sure everything is installed properly. In your terminal, run:
+
+bash
+Kopioi koodi
+npm uninstall inquirer
+npm install inquirer
+This will uninstall any existing version of inquirer and reinstall the latest one.
+
+2. Check Your Node.js Version
+Run the following command to ensure you're using a supported version of Node.js:
+
+bash
+Kopioi koodi
+node -v
+Ensure you are using a version of Node.js that supports async/await (v12.x or higher). If you're using an older version, upgrade Node.js.
+
+3. Create a Minimal Test Script
+To ensure inquirer is working correctly, let's test it in isolation. Create a new file named testInquirer.js and add the following simple script:
+
+javascript
+Kopioi koodi
+const inquirer = require('inquirer'); // Import inquirer
+
+async function askQuestion() {
+    const answers = await inquirer.prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?',
+        }
+    ]);
+    
+    console.log(`Hello, ${answers.name}!`);
+}
+
+askQuestion();
+Run this script with:
+
+bash
+Kopioi koodi
+node testInquirer.js
+If inquirer is installed and imported correctly, it should prompt you for your name and then print the message Hello, <your name>!. If this works, inquirer is functioning correctly.
+
+4. Check for node_modules Folder
+Make sure the node_modules folder exists in your project directory and that it contains the inquirer package. If it’s missing, reinstall dependencies with:
+
+bash
+Kopioi koodi
+npm install
+5. Ensure Compatibility Between Node and inquirer Version
+It’s possible that the version of inquirer you have is incompatible with the version of Node.js you are using. You can check the current version of inquirer:
+
+bash
+Kopioi koodi
+npm show inquirer version
+If you're using an older version of Node.js (e.g., v10 or lower), try installing a compatible version of inquirer, such as version 7.x:
+
+bash
+Kopioi koodi
+npm install inquirer@7
+6. Ensure Correct Script Execution
+Make sure that you're running the correct script file (converter.js or testInquirer.js) by using the exact file name in the command:
+
+bash
+Kopioi koodi
+node converter.js
+Updated Code (converter.js)
+javascript
+Kopioi koodi
+const axios = require('axios');
+const inquirer = require('inquirer');
+
+// NBP API endpoint to get the latest exchange rates for table A
+const NBP_API_URL = 'https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json';
+
+// Function to fetch exchange rates from the NBP API
+async function fetchExchangeRates() {
+    try {
+        const response = await axios.get(NBP_API_URL);
+        const rates = response.data[0].rates;
+        return rates;
+    } catch (error) {
+        console.error('Error fetching exchange rates:', error);
+        process.exit(1);
+    }
+}
+
+// Mark the currencyConverter function as async
+async function currencyConverter() {
+    const rates = await fetchExchangeRates();
+    
+    const currencyOptions = rates.map(rate => ({
+        name: `${rate.currency} (${rate.code})`,
+        value: rate.code,
+    }));
+
+    const questions = [
+        {
+            type: 'list',
+            name: 'fromCurrency',
+            message: 'Choose the currency you want to convert from:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'list',
+            name: 'toCurrency',
+            message: 'Choose the currency you want to convert to:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'input',
+            name: 'amount',
+            message: 'Enter the amount to convert:',
+            validate: function (value) {
+                const valid = !isNaN(parseFloat(value)) && value > 0;
+                return valid || 'Please enter a positive number';
+            },
+            filter: Number,
+        },
+    ];
+
+    const answers = await inquirer.prompt(questions); // Ensure this line works with the correct import
+    const fromCurrency = answers.fromCurrency;
+    const toCurrency = answers.toCurrency;
+    const amount = answers.amount;
+
+    const fromRate = rates.find(rate => rate.code === fromCurrency).mid;
+    const toRate = rates.find(rate => rate.code === toCurrency).mid;
+
+    const convertedAmount = (amount * fromRate) / toRate;
+    console.log(`\n${amount} ${fromCurrency} is approximately ${convertedAmount.toFixed(2)} ${toCurrency}.\n`);
+}
+
+// Start the currency converter
+currencyConverter();
+Final Steps
+Ensure that the inquirer package is properly installed.
+Verify that your Node.js version is supported.
+Test inquirer with a minimal script (testInquirer.js) to check if it’s working.
+Run converter.js after confirming the setup.
+Let me know how it goes!
+
+
+
+
+
+
+Sinä sanoit:
+I receive a following error message from currency converter C:\Users\EeronPc\Desktop\VScode\converter.js:53
+    const { fromCurrency, toCurrency, amount } = await inquirer.prompt(questions);
+                                                                ^
+
+TypeError: inquirer.prompt is not a function
+    at currencyConverter (C:\Users\EeronPc\Desktop\VScode\converter.js:53:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v20.17.0
+ChatGPT sanoi:
+ChatGPT
+The error message TypeError: inquirer.prompt is not a function indicates that the inquirer module isn't functioning as expected. Based on your Node.js version (v20.17.0), and this error, it’s likely due to either an import issue or version compatibility between inquirer and Node.js.
+
+Let’s try to fix it step-by-step.
+
+1. Ensure Correct inquirer Version
+The version of Node.js you're using (v20.17.0) is quite new, and sometimes certain packages might have compatibility issues. We should first ensure you're using a compatible version of inquirer.
+
+Try installing an earlier, stable version of inquirer, such as inquirer@8.2.4 (which is known to work well with async/await and modern Node.js versions):
+
+bash
+Kopioi koodi
+npm uninstall inquirer
+npm install inquirer@8.2.4
+2. Ensure Proper require Syntax for CommonJS
+Since you're using Node.js in CommonJS mode (which is the default unless you specify "type": "module" in package.json), you should be using require() to import the inquirer module.
+
+Check your converter.js file to ensure you have the following line at the top:
+
+javascript
+Kopioi koodi
+const inquirer = require('inquirer'); // CommonJS import
+This should work fine with Node.js v20.x.
+
+3. Test inquirer in Isolation
+Create a separate file (testInquirer.js) to verify if inquirer works on its own:
+
+javascript
+Kopioi koodi
+const inquirer = require('inquirer'); // CommonJS import
+
+async function askQuestion() {
+    const answers = await inquirer.prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?',
+        }
+    ]);
+
+    console.log(`Hello, ${answers.name}!`);
+}
+
+askQuestion();
+Run this with:
+
+bash
+Kopioi koodi
+node testInquirer.js
+If this script works, it means inquirer is installed correctly.
+
+4. Check node_modules for inquirer
+Ensure that inquirer exists in the node_modules directory of your project. You can do this by checking for the folder:
+
+bash
+Kopioi koodi
+ls node_modules/inquirer
+If the folder isn't there, reinstall it:
+
+bash
+Kopioi koodi
+npm install inquirer
+5. Recreate the converter.js File
+If the inquirer test works, go back to your converter.js file and ensure the code is properly structured:
+
+javascript
+Kopioi koodi
+const axios = require('axios');
+const inquirer = require('inquirer'); // Ensure correct import
+
+// NBP API endpoint to get the latest exchange rates for table A
+const NBP_API_URL = 'https://api.nbp.pl/api/exchangerates/tables/a/last/1/?format=json';
+
+// Function to fetch exchange rates from the NBP API
+async function fetchExchangeRates() {
+    try {
+        const response = await axios.get(NBP_API_URL);
+        const rates = response.data[0].rates;
+        return rates;
+    } catch (error) {
+        console.error('Error fetching exchange rates:', error);
+        process.exit(1);
+    }
+}
+
+// Mark the currencyConverter function as async
+async function currencyConverter() {
+    const rates = await fetchExchangeRates();
+    
+    const currencyOptions = rates.map(rate => ({
+        name: `${rate.currency} (${rate.code})`,
+        value: rate.code,
+    }));
+
+    const questions = [
+        {
+            type: 'list',
+            name: 'fromCurrency',
+            message: 'Choose the currency you want to convert from:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'list',
+            name: 'toCurrency',
+            message: 'Choose the currency you want to convert to:',
+            choices: currencyOptions,
+        },
+        {
+            type: 'input',
+            name: 'amount',
+            message: 'Enter the amount to convert:',
+            validate: function (value) {
+                const valid = !isNaN(parseFloat(value)) && value > 0;
+                return valid || 'Please enter a positive number';
+            },
+            filter: Number,
+        },
+    ];
+
+    const answers = await inquirer.prompt(questions);
+    const fromCurrency = answers.fromCurrency;
+    const toCurrency = answers.toCurrency;
+    const amount = answers.amount;
+
+    const fromRate = rates.find(rate => rate.code === fromCurrency).mid;
+    const toRate = rates.find(rate => rate.code === toCurrency).mid;
+
+    const convertedAmount = (amount * fromRate) / toRate;
+    console.log(`\n${amount} ${fromCurrency} is approximately ${convertedAmount.toFixed(
+A network error occurred. Please check your connection and try again. If this issue persists please contact us through our help center at help.openai.com.
+
+
+
+
+
+
+
+Vastauksen luomisessa tapahtui virhe
+
+Luo uudelleen
+ChatGPT voi tehdä virheitä. Suosi
