@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML-malli</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="tyyli.css">
+    <!--
+    <script src="skripti.js"></script>
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Otsikko</h1>
+    <nav>
+    <a href="#">Linkki</a>
+    </nav>
+<div>
+    <div class="taulukkokehys">
+    <table>
+    <tr>
+        <th>Sarake 1</th>
+        <th>Sarake 2</th>
+        <th>Sarake 3</th>
+        <th>Sarake 4</th>
+        <th>Sarake 5</th>
+        <th>Sarake 6</th>
+        <th>Sarake 7</th>
+    </tr>
+    <tr>
+        <td>Rivi 1, solu 1</td>
+        <td>Rivi 1, solu 2</td>
+        <td>Rivi 1, solu 3</td>
+        <td>Rivi 1, solu 4</td>
+        <td>Rivi 1, solu 5</td>
+        <td>Rivi 1, solu 6</td>
+        <td>Rivi 1, solu 7</td>
+        </td>
+        <td>Rivi 1, solu 4</td>
+    </tr>
+    <tr>
+        <td>Rivi 2, solu 1</td>
+        <td>Rivi 2, solu 2</td>
+        <td>Rivi 2, solu 3, sisältö</td>
+        <td>Rivi 2, solu 4</td>
+    </tr>
+    </table>
+    </div>
+</div>
+<footer>
+<p>Alatunniste</p>
+</footer>
+</body>
+</html>
+4:02
+html, body { height: 100%;}
+
+footer {
+  position: sticky;
+  top: 100vh;
+  margin: auto;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+}
+
+.taulukkokehys {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  height: 200px; 
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+4:03
+Tämän päivän 26.8.2024 koodiesimerkki

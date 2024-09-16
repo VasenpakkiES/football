@@ -1,0 +1,162 @@
+16.59.48  [main] 	Initializing Control Panel
+16.59.48  [main] 	Windows Version:  Enterprise  64-bit
+16.59.48  [main] 	XAMPP Version: 8.2.12
+16.59.48  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+16.59.48  [main] 	Running with Administrator rights - good!
+16.59.48  [main] 	XAMPP Installation Directory: "c:\xampp\"
+16.59.48  [main] 	Checking for prerequisites
+16.59.49  [main] 	All prerequisites found
+16.59.49  [main] 	Initializing Modules
+16.59.49  [Apache] 	XAMPP Apache is already running on port 80
+16.59.49  [Apache] 	XAMPP Apache is already running on port 443
+16.59.49  [Tomcat] 	Java is already running on port 8005!
+16.59.49  [Tomcat] 	Is Tomcat already running?
+16.59.49  [main] 	Starting Check-Timer
+16.59.49  [main] 	Control Panel Ready
+17.00.03  [mysql] 	Attempting to start MySQL app...
+17.00.03  [mysql] 	Status change detected: running
+17.00.04  [mysql] 	Status change detected: stopped
+17.00.04  [mysql] 	Error: MySQL shutdown unexpectedly.
+17.00.04  [mysql] 	This may be due to a blocked port, missing dependencies, 
+17.00.04  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+17.00.04  [mysql] 	Press the Logs button to view error logs and check
+17.00.04  [mysql] 	the Windows Event Viewer for more clues
+17.00.04  [mysql] 	If you need more help, copy and post this
+17.00.04  [mysql] 	entire log window on the forums
+17.06.43  [main] 	Deinitializing Modules
+17.06.43  [main] 	Deinitializing Control Panel
+
+16.46.15  [main] 	Initializing Control Panel
+16.46.15  [main] 	Windows Version:  Enterprise  64-bit
+16.46.15  [main] 	XAMPP Version: 8.2.12
+16.46.15  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+16.46.15  [main] 	Running with Administrator rights - good!
+16.46.15  [main] 	XAMPP Installation Directory: "c:\xampp\"
+16.46.15  [main] 	Checking for prerequisites
+16.46.17  [main] 	All prerequisites found
+16.46.17  [main] 	Initializing Modules
+16.46.17  [Apache] 	XAMPP Apache is already running on port 80
+16.46.17  [Apache] 	XAMPP Apache is already running on port 443
+16.46.17  [main] 	Starting Check-Timer
+16.46.17  [main] 	Control Panel Ready
+16.46.22  [mysql] 	Attempting to start MySQL app...
+16.46.22  [mysql] 	Status change detected: running
+16.46.24  [mysql] 	Status change detected: stopped
+16.46.24  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.46.24  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.46.24  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.46.24  [mysql] 	Press the Logs button to view error logs and check
+16.46.24  [mysql] 	the Windows Event Viewer for more clues
+16.46.24  [mysql] 	If you need more help, copy and post this
+16.46.24  [mysql] 	entire log window on the forums
+16.46.30  [Apache] 	Attempting to stop Apache (PID: 108720)
+16.46.30  [Apache] 	Attempting to stop Apache (PID: 88000)
+16.46.30  [Apache] 	Status change detected: stopped
+16.46.34  [mercury] 	Attempting to start Mercury app...
+16.46.35  [mercury] 	Status change detected: running
+16.46.40  [mercury] 	Attempting to stop Mercury (PID: 12392)
+16.46.40  [mercury] 	Status change detected: stopped
+16.46.42  [filezilla] 	Attempting to start FileZilla app...
+16.46.42  [filezilla] 	Status change detected: running
+16.46.45  [filezilla] 	Attempting to stop FileZilla app...
+16.46.45  [filezilla] 	Status change detected: stopped
+16.46.46  [Tomcat] 	Attempting to start Tomcat app...
+16.46.52  [Tomcat] 	Attempting to start Tomcat app...
+16.46.58  [Apache] 	Attempting to start Apache app...
+16.46.58  [Apache] 	Status change detected: running
+16.47.03  [Tomcat] 	Status change detected: running
+16.47.08  [mysql] 	Attempting to start MySQL app...
+16.47.08  [mysql] 	Status change detected: running
+16.47.08  [Tomcat] 	Status change detected: stopped
+16.47.08  [Tomcat] 	Error: Tomcat shutdown unexpectedly.
+16.47.08  [Tomcat] 	This may be due to a blocked port, missing dependencies, 
+16.47.08  [Tomcat] 	improper privileges, a crash, or a shutdown by another method.
+16.47.08  [Tomcat] 	Press the Logs button to view error logs and check
+16.47.08  [Tomcat] 	the Windows Event Viewer for more clues
+16.47.08  [Tomcat] 	If you need more help, copy and post this
+16.47.08  [Tomcat] 	entire log window on the forums
+16.47.10  [mysql] 	Status change detected: stopped
+16.47.10  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.47.10  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.47.10  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.47.10  [mysql] 	Press the Logs button to view error logs and check
+16.47.10  [mysql] 	the Windows Event Viewer for more clues
+16.47.10  [mysql] 	If you need more help, copy and post this
+16.47.10  [mysql] 	entire log window on the forums
+16.48.18  [mysql] 	Attempting to start MySQL app...
+16.48.18  [mysql] 	Status change detected: running
+16.48.20  [mysql] 	Status change detected: stopped
+16.48.20  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.48.20  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.48.20  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.48.20  [mysql] 	Press the Logs button to view error logs and check
+16.48.20  [mysql] 	the Windows Event Viewer for more clues
+16.48.20  [mysql] 	If you need more help, copy and post this
+16.48.20  [mysql] 	entire log window on the forums
+16.51.47  [mysql] 	Attempting to start MySQL app...
+16.51.47  [mysql] 	Status change detected: running
+16.51.50  [mysql] 	Status change detected: stopped
+16.51.50  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.51.50  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.51.50  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.51.50  [mysql] 	Press the Logs button to view error logs and check
+16.51.50  [mysql] 	the Windows Event Viewer for more clues
+16.51.50  [mysql] 	If you need more help, copy and post this
+16.51.50  [mysql] 	entire log window on the forums
+16.53.30  [Apache] 	Attempting to stop Apache (PID: 31340)
+16.53.30  [Apache] 	Attempting to stop Apache (PID: 30360)
+16.53.30  [Apache] 	Status change detected: stopped
+16.57.12  [mysql] 	Attempting to start MySQL app...
+16.57.13  [mysql] 	Status change detected: running
+16.57.15  [mysql] 	Status change detected: stopped
+16.57.15  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.57.15  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.57.15  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.57.15  [mysql] 	Press the Logs button to view error logs and check
+16.57.15  [mysql] 	the Windows Event Viewer for more clues
+16.57.15  [mysql] 	If you need more help, copy and post this
+16.57.15  [mysql] 	entire log window on the forums
+16.57.27  [Apache] 	Attempting to start Apache app...
+16.57.27  [Apache] 	Status change detected: running
+16.57.47  [mysql] 	Attempting to start MySQL app...
+16.57.47  [mysql] 	Status change detected: running
+16.57.49  [mysql] 	Status change detected: stopped
+16.57.49  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.57.49  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.57.49  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.57.49  [mysql] 	Press the Logs button to view error logs and check
+16.57.49  [mysql] 	the Windows Event Viewer for more clues
+16.57.49  [mysql] 	If you need more help, copy and post this
+16.57.49  [mysql] 	entire log window on the forums
+16.57.54  [mysql] 	Attempting to start MySQL app...
+16.57.54  [mysql] 	Status change detected: running
+16.57.56  [mysql] 	Status change detected: stopped
+16.57.56  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.57.56  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.57.56  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.57.56  [mysql] 	Press the Logs button to view error logs and check
+16.57.56  [mysql] 	the Windows Event Viewer for more clues
+16.57.56  [mysql] 	If you need more help, copy and post this
+16.57.56  [mysql] 	entire log window on the forums
+16.58.27  [mysql] 	Attempting to start MySQL app...
+16.58.27  [mysql] 	Status change detected: running
+16.58.28  [mysql] 	Status change detected: stopped
+16.58.28  [mysql] 	Error: MySQL shutdown unexpectedly.
+16.58.28  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16.58.28  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16.58.28  [mysql] 	Press the Logs button to view error logs and check
+16.58.28  [mysql] 	the Windows Event Viewer for more clues
+16.58.28  [mysql] 	If you need more help, copy and post this
+16.58.28  [mysql] 	entire log window on the forums
+17.00.03  [mysql] 	Status change detected: running
+17.00.05  [mysql] 	Status change detected: stopped
+17.00.05  [mysql] 	Error: MySQL shutdown unexpectedly.
+17.00.05  [mysql] 	This may be due to a blocked port, missing dependencies, 
+17.00.05  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+17.00.05  [mysql] 	Press the Logs button to view error logs and check
+17.00.05  [mysql] 	the Windows Event Viewer for more clues
+17.00.05  [mysql] 	If you need more help, copy and post this
+17.00.05  [mysql] 	entire log window on the forums
+17.06.43  [main] 	Deinitializing Modules
+17.06.43  [main] 	Deinitializing Control Panel
+

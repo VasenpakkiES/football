@@ -34,11 +34,28 @@ if ($result->num_rows > 0) {
 } else {
    echo "Ei tuloksia";
 }
-
-$query = "INSERT INTO auto (rekisterinro, vari, vuosimalli, omistaja) VALUES ('CES-999', 'sininen', 1988, '111188-143A')";
+$query = "INSERT INTO henkilo (hetu, nimi, osoite, puhelinnumero) VALUES ('111188-143A', 'Eero Jokerimies', 'Kantelettarentie 1', '09876543210');";
+$result = $yhteys->query($query);
+if ($result === TRUE) {
+   echo "Henkilö lisätty.";
+   } 
+else {
+   echo "Virhe: " . $query . "<br>" . $conn->error;
+   }
+   
+$query = "INSERT INTO auto (rekisterinro, vari, vuosimalli, omistaja) VALUES ('JOK-111', 'punakeltainen', 2011, '111188-143A')";
 $result = $yhteys->query($query);
 if ($result === TRUE) {
    echo "Auto lisätty.";
+   } 
+else {
+   echo "Virhe: " . $query . "<br>" . $conn->error;
+   }
+
+   $query = "INSERT INTO sakko (id, auto, henkilo, pvm, summa, syy) VALUES (7, 'JOK-111', '111188-143A', '2024-09-12', 100, 'punaisia päin ajo')";
+$result = $yhteys->query($query);
+if ($result === TRUE) {
+   echo "Sakko lisätty.";
    } 
 else {
    echo "Virhe: " . $query . "<br>" . $conn->error;
