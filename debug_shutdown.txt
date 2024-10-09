@@ -1,0 +1,10 @@
+2024-09-09 15:58:03 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 12,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:04:09 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 54,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:10:34 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 46,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:12:57 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:20:02 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:42:31 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:46:08 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-09 16:47:28 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-12 09:22:32 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 39,tiedostossa C:\xampp\htdocs\autokanta.php
+2024-09-12 09:37:38 Ohjelman suoritus päättyi. Tappava virhe 1 rivillä 38,tiedostossa C:\xampp\htdocs\autokanta.php

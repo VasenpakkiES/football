@@ -1,7 +1,9 @@
 <?php
+session_start();
+include 'includes/header.php';
 $servername = "localhost";
 $username = "root";
-$password = "Esiljand0607?!";
+$password = "";
 $dbname = "flower_shop";
 
 // Create connection

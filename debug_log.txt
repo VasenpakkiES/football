@@ -1,0 +1,1896 @@
+2024-09-09 16:04:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:04:08 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:04:09 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:10:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:12:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:20:02 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:30:57 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:33:41 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:33:41 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:33:41 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:33:41 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:33:42 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:42:31 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:46:08 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-09 16:47:28 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '',
+  'nimi' => 'Matti Meikäläinen',
+  'osoite' => NULL,
+  'puhelinnumero' => NULL,
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:22:32 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:35:22 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '111188-143A',
+  'nimi' => 'Eero Jokerimies',
+  'osoite' => 'Kantelettarentie 1',
+  'puhelinnumero' => '09876543210',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '111188-143A',
+  'nimi' => 'Eero Jokerimies',
+  'osoite' => 'Kantelettarentie 1',
+  'puhelinnumero' => '09876543210',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '111188-143A',
+  'nimi' => 'Eero Jokerimies',
+  'osoite' => 'Kantelettarentie 1',
+  'puhelinnumero' => '09876543210',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '111188-143A',
+  'nimi' => 'Eero Jokerimies',
+  'osoite' => 'Kantelettarentie 1',
+  'puhelinnumero' => '09876543210',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:37:38 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:39:25 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:47:34 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '080173-169T',
+  'nimi' => 'Matti Miettinen',
+  'osoite' => 'Koivukuja 25',
+  'puhelinnumero' => '040-1842950',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '120760-093B',
+  'nimi' => 'Tapio Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '0400-576397',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '123456-7890',
+  'nimi' => 'Pekka Perusinsinööri',
+  'osoite' => 'Katu 1',
+  'puhelinnumero' => '0401234567',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '200292-195H',
+  'nimi' => 'Teemu Tamminen',
+  'osoite' => 'Tammistontie 18',
+  'puhelinnumero' => '040-9740768',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)
+2024-09-12 09:50:21 array (
+  'hetu' => '281182-070W',
+  'nimi' => 'Anne Autoilija',
+  'osoite' => 'Kanervapolku 2',
+  'puhelinnumero' => '050-1640837',
+)

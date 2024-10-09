@@ -1,0 +1,31 @@
+ <?php
+$palvelin = "localhost";
+$kayttaja = "root";  // tämä on tietokannan käyttäjä, ei tekemäsi järjestelmän
+$salasana = "Esiljand6776?!";
+$tietokanta = "Auto";
+
+// luo yhteys
+$yhteys = new mysqli($palvelin, $kayttaja, $salasana, $tietokanta);
+
+// jos yhteyden muodostaminen ei onnistunut, keskeytä
+if ($yhteys->connect_error) {
+   die("Yhteyden muodostaminen epäonnistui: " . $yhteys->connect_error);
+}
+// aseta merkistökoodaus (muuten ääkköset sekoavat)
+$yhteys->set_charset("utf8");
+echo "Yhteys Onnistui";
+
+$query = "SELECT * FROM auto";
+$result = $yhteys->query($query);
+// jos tulosrivejä löytyi
+if ($result->num_rows > 0) {
+   // hae joka silmukan kierroksella uusi rivi
+   while($row = $result->fetch_assoc()) {
+      // taulukon avaimet (hakasuluissa olevat nimet) ovat TIETOKANNAN KENTTIÄ (sarakkeita)
+      echo "Rekisterinumero: " . $row["rekisterinro"]. " - Merkki: " . $row["merkki"]. " - Vari: " . $row["vari"]. "<br>";
+   }
+} else {
+   echo "Ei tuloksia";
+}
+?>
+*/
