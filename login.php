@@ -1,6 +1,15 @@
 <?php
-session_start();
+// Enable error reporting and logging settings
+ini_set('display_errors', 0); // Do not show errors on the webpage
+ini_set('log_errors', 1); // Enable error logging
+ini_set('error_log', 'error_log.txt'); // Specify the error log file location (in the root folder of the project)
+error_reporting(E_ALL); // Report all types of errors
+
+session_start(); // Ensure sessions are started at the top of the page when needed
+
 include 'includes/header.php';
+include 'db/db.php'; // Include the database connection file
+
 $host = "localhost";
 $dbname = "flower_shop";
 $db_username = "root";
@@ -9,7 +18,8 @@ $conn = new mysqli($host, $db_username, $db_password, $dbname);
 
 // Check for connection errors
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    error_log("Connection failed: " . $conn->connect_error);
+    die("Connection failed. Please try again later.");
 }
 
 $error = '';
@@ -17,10 +27,11 @@ $success = '';
 
 // Handle login form submission
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $email = trim($_POST['email']);
-    $password = trim($_POST['password']);
+    // Retrieve and sanitize form input
+    $email = htmlspecialchars(trim($_POST['email']));
+    $password = htmlspecialchars(trim($_POST['password']));
 
-    // Validate input
+    // Server-side validation
     if (empty($email) || empty($password)) {
         $error = "Email and password are required.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -29,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $error = "Password must be at least 6 characters long.";
     } else {
         // Prepare statement to prevent SQL injection
-        $stmt = $conn->prepare("SELECT id, password FROM customer WHERE email = ?");
+        $stmt = $conn->prepare("SELECT customer_id, password FROM customer WHERE email = ?");
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $stmt->store_result();
@@ -51,9 +62,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
         $stmt->close();
     }
+
+    // Log server-side validation errors if any
+    if ($error) {
+        error_log("Login Error: " . $error);
+    }
 }
 
-$conn->close();
+$conn->close(); // Close the database connection
 ?>
 
 <!DOCTYPE html>
@@ -62,28 +78,31 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Flower Shop</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external stylesheet -->
+    <script>
+        // Client-side validation or JavaScript logic can be added here
+    </script>
 </head>
 <body>
-    <h2>Login to Your Account</h2>
+    <div class="container">
+        <h2>Login to Your Flower Shop Account</h2>
 
-    <?php if ($error): ?>
-        <p class="error"><?php echo htmlspecialchars($error); ?></p>
-    <?php endif; ?>
+        <!-- Display error message if any -->
+        <?php if ($error): ?>
+            <p class="error"><?php echo htmlspecialchars($error); ?></p>
+        <?php endif; ?>
 
-    <form id="loginForm" method="post" action="">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <form id="loginForm" method="post" action="">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="6">
 
-        <button type="submit">Login</button>
-    </form>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 
-    <script>
-        // You can add any client-side validation or JavaScript logic here if needed
-    </script>
+    <?php include 'includes/footer.php'; ?> <!-- Include the footer -->
 </body>
 </html>
-
-<?php include 'includes/footer.php'; ?>
